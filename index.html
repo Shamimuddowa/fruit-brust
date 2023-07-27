@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind and Daisy Ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lato Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/ae69e827eb.js" crossorigin="anonymous"></script>
+    <title>Fruit brust</title>
+    <style>
+        .lato-font{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container mx-auto">
+            <div class="navbar bg-red-500 rounded-full">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#all-fruits">All Fruits</a></li>
+                    </ul>
+                  </div>
+                <div class=" hidden lg:flex navbar-start text-white">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#all-fruits">All Fruits</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-center">
+                    <img src="images/logo.png" alt="">
+                    <h3 class="text-4xl font-bold text-white ml-5"><a href="">Fruit Burst</a></h3>
+                </div>
+                <div class="navbar-end">
+                    <form action="#" class="hidden bg-white text-title py-2 pr-4 rounded-3xl lg:flex">
+                        <input type="search" name="search" id="search" placeholder="Search here" class="focus:outline-none h-full pl-6 pr-4 rounded-l-3xl" required>
+                        <button type="submit">
+                          <i class="fa-solid fa-magnifying-glass text-title"></i>
+                        </button>
+                    </form>
+                </div>
+              </div>
+        </nav>
+    </header>
+</body>
+</html>
